@@ -15,7 +15,7 @@ const countdown=()=>{
     const enteredDay=prompt("Enter Day").padStart(2,"0");
 
     const enteredMonth=prompt("Enter Month").padStart(2,"0");
-    if((enteredDay>=1 && enteredDay<31) && (enteredMonth=>1 && enteredMonth<=12) ){
+    if((enteredDay>=1 && enteredDay<=31) && (enteredMonth=>1 && enteredMonth<=12) ){
         let targetdate = `${enteredMonth}/${enteredDay}/${yyyy}`;
    }
    else{

@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(./images/cool-background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.counterTimer{
+    display: flex;
+}
+
+.counterTimer>p{
+    padding: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.counterTimer>p>span{
+   display: block;
+   font-size: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .counterTimer>p{
+        padding: 1rem;
+        font-size: 1rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .counterTimer>p>span{
+       display: block;
+       font-size: 2rem;
+    }
+  }
